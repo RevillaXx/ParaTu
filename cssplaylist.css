@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 body {
     /* Fondo con imagen y gradiente de color */
-    background: linear-gradient(to right, #32CD32, #e84393), url('rosaneon2.jfif');
+    background: linear-gradient(to right, #32CD32, #e84393), url('rosaneon2.jfif') fixed;
     background-size: cover; /* Ajusta la imagen para cubrir toda la pantalla */
     background-blend-mode: overlay; /* Fusiona el gradiente con la imagen */
+    background-repeat: no-repeat;
 
     font-family: 'Lato', sans-serif;
     font-size: 1.3em;
