@@ -21,7 +21,7 @@ const canciones = [
 "Sebastián Yatra - No hay nadie más.mp3",
 "Taylor Swift - Love Story.mp3",
 "TINI, Maria Becerra - Miénteme.mp3",
-"tu fan - mafalda cardenal.mp3",
+"tu fan - mafalda cardenal.mp3"
  
     ]
     var indiceActual = new Array(1)
