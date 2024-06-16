@@ -1,5 +1,6 @@
 //Array con el listado de canciones a mostrar en el reprodutor
 const canciones = [
+ 
 "Anitta&JBalvin-Downtown.mp3",
 "Anitta & J Balvin - Downtown.mp3",
 "Aventura - La Boda.mp3",
@@ -16,7 +17,7 @@ const canciones = [
 "Morat - A Dónde Vamos.mp3",
 "Morat - Cómo Te Atreves.mp3",
 "Princesas Mágicas - Jesùs Adrián Romero.mp3",
-"Rauw Alejandro - Enchule.
+"Rauw Alejandro - Enchule",
 "Reik - Tu Mirada.mp3",
 "Sebastián Yatra - No hay nadie más.mp3",
 "Taylor Swift - Love Story.mp3",
