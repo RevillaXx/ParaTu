@@ -53,18 +53,19 @@ li.active {
     border: 1px #32CD32; solid;
     border-radius: 10px;
     padding: 10px;
-    background-color: linear-gradient(to right, rgba(50, 205, 50, 0.8), rgba(232, 67, 147, 0.8));
+    background-color: #32CD32;
     opacity: 0.8;
 }
 
 svg {
-    color: linear-gradient(to right, rgba(50, 205, 50, 0.8), rgba(232, 67, 147, 0.8));
+    color: #32CD32;
 }
 
 progress {
     width: 80%;
     margin: 10px;
     opacity: 0.5;
+    color: #32CD32;
 }
 
 .timer {
