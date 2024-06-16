@@ -1,6 +1,27 @@
 //Array con el listado de canciones a mostrar en el reprodutor
 const canciones = [
-    "Aitana-Vas_A_Quedarte.mp3",
+
+"Anitta & J Balvin - Downtown.mp3",
+"Aventura - La Boda.mp3",
+"Benson Boone - Beautiful Things.mp3",
+"Camila - Solo Para Ti.mp3",
+"Christina Perri - A Thousand Years.mp3",
+"GAYLE - abcdefu.mp3",
+"Juan Luis Guerra- A Pedir Su Mano.mp3",
+"Kany García - Confieso.mp3",
+"Karol G - _Oki Doki.mp3",
+"KAROL G - GUCCI LOS PAÑOS.mp3",
+"KAROL G - Mientras Me Curo Del Cora.mp3",
+"La Quinta Estación - El Sol no Regresa.mp3",
+"Morat - A Dónde Vamos.mp3",
+"Morat - Cómo Te Atreves.mp3",
+"Princesas Mágicas - Jesùs Adrián Romero.mp3",
+"Rauw Alejandro - Enchule.
+"Reik - Tu Mirada.mp3",
+"Sebastián Yatra - No hay nadie más.mp3",
+"Taylor Swift - Love Story.mp3",
+"TINI, Maria Becerra - Miénteme.mp3",
+"tu fan - mafalda cardenal.mp3",
  
     ]
     var indiceActual = new Array(1)
