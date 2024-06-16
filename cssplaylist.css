@@ -25,7 +25,7 @@ body {
     background: linear-gradient(to right, rgba(50, 205, 50, 0.8), rgba(232, 67, 147, 0.8));
     border-radius: 10px;
     text-align: left;
-    color: #e84393;
+    color: #32CD32;
     width: 100%;
     max-width: 800px;
     margin: 20px;
@@ -44,13 +44,13 @@ li {
 }
 li:hover, svg:hover {
     cursor: pointer;
-    color: #e84393;
+    color: #32CD32;
 }
 li.active {
-    color: #6c5ce7;
+    color: #32CD32;
 }
 #controls {
-    border: 1px #39ff14 solid;
+    border: 1px #32CD32; solid;
     border-radius: 10px;
     padding: 10px;
     background-color: linear-gradient(to right, rgba(50, 205, 50, 0.8), rgba(232, 67, 147, 0.8));
