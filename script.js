@@ -1,6 +1,5 @@
 //Array con el listado de canciones a mostrar en el reprodutor
 const canciones = [
- 
 "Aitana-Vas_A_Quedarte.mp3",
 "Anitta & J Balvin - Downtown.mp3",
 "Aventura - La Boda.mp3",
@@ -23,8 +22,8 @@ const canciones = [
 "Taylor Swift - Love Story.mp3",
 "TINI, Maria Becerra - Miénteme.mp3",
 "tu fan - mafalda cardenal.mp3"
-
  ]
+
    var indiceActual = new Array(1)
 //Funcion para crear mediante javascript el listado de canciones
 function crearPlayList(){
