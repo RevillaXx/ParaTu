@@ -9,14 +9,25 @@ body{
 	text-align: center;
 	min-height: 50vh;
 }
-#playList{
-	background: white;
-	border-radius: 10px;
-	text-align: left;
-	opacity: 0.8;
-	color: #e84393;
-	
+#playList {
+    background: white;
+    border-radius: 10px;
+    text-align: left;
+    opacity: 0.8;
+    color: #e84393;
+
+    /* Imagen de fondo */
+    background-image: url('rosa neon 2.jfif');
+    background-size: cover; /* Ajusta la imagen para cubrir todo el contenedor */
+    background-position: center;
+
+    /* Borde de neón verde */
+    border: 2px solid #39ff14; /* Color del borde */
+    box-shadow: 0 0 10px #39ff14, 0 0 20px #39ff14, 0 0 30px #39ff14; /* Efecto de neón */
 }
+
+	
+
  li{
 	padding: 10px;
 }
