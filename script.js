@@ -12,7 +12,7 @@ const canciones = [
 "Karol G - _Oki Doki.mp3",
 "KAROL G - GUCCI LOS PAÑOS.mp3",
 "KAROL G - Mientras Me Curo Del Cora.mp3",
-"La Quinta Estación - El Sol no Regresa.mp3"
+"La Quinta Estación - El Sol no Regresa.mp3",
 "Morat - A Dónde Vamos.mp3",
 "Morat - Cómo Te Atreves.mp3",
 "Princesas Mágicas - Jesùs Adrián Romero.mp3",
