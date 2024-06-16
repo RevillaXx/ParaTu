@@ -1,30 +1,39 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
-body{
-	background: linear-gradient(to right, #6c5ce7 , #e84393);
-	font-family: 'Lato', sans-serif;
-	font-size: 1.3em;
-	width: 50%;
-	margin: 15px auto;
-	padding: 20px;
-	text-align: center;
-	min-height: 50vh;
+body {
+    /* Fondo con imagen y gradiente de color */
+    background: linear-gradient(to right, #32CD32, #e84393), url('rosaneon2.jfif');
+    background-size: cover; /* Ajusta la imagen para cubrir toda la pantalla */
+    background-blend-mode: overlay; /* Fusiona el gradiente con la imagen */
+
+    font-family: 'Lato', sans-serif;
+    font-size: 1.3em;
+    width: 50%;
+    margin: 15px auto;
+    padding: 20px;
+    text-align: center;
+    min-height: 50vh;
+
+    /* Color del texto */
+    color: #32CD32; /* Verde lima */
 }
+
 #playList {
-    background: white;
+    /* Fondo verde lima fusionado con rosa, semi-transparente */
+    background: linear-gradient(to right, rgba(50, 205, 50, 0.8), rgba(232, 67, 147, 0.8));
     border-radius: 10px;
     text-align: left;
-    opacity: 0.8;
     color: #e84393;
-
-    /* Imagen de fondo */
+     /* Imagen de fondo */
     background-image: url('rosadisney.jpeg');
     background-size: cover; /* Ajusta la imagen para cubrir todo el contenedor */
     background-position: center;
+
 
     /* Borde de neón verde */
     border: 2px solid #39ff14; /* Color del borde */
     box-shadow: 0 0 10px #39ff14, 0 0 20px #39ff14, 0 0 30px #39ff14; /* Efecto de neón */
 }
+
 
 	
 
