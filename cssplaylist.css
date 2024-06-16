@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
 body {
+    /* Fondo con imagen y gradiente de color */
     background: linear-gradient(to right, #32CD32, #e84393), url('rosaneon2.jfif') fixed;
-    background-size: cover;
-    background-blend-mode: overlay;
+    background-size: cover; /* Ajusta la imagen para cubrir toda la pantalla */
+    background-blend-mode: overlay; /* Fusiona el gradiente con la imagen */
     min-height: 100vh;
     background-position: center center;
     background-repeat: no-repeat;
@@ -15,82 +16,82 @@ body {
     font-size: 1.3em;
     padding: 20px;
     text-align: center;
-    color: #32CD32;
+    color: #32CD32; /* Verde lima */
     margin: 0;
 }
 
 #playList {
+    /* Fondo verde lima fusionado con rosa, semi-transparente */
     background: linear-gradient(to right, rgba(50, 205, 50, 0.8), rgba(232, 67, 147, 0.8));
     border-radius: 10px;
     text-align: left;
-    color: #32CD32;
+    color: #e84393;
     width: 100%;
     max-width: 800px;
     margin: 20px;
     padding: 20px;
+    /* Imagen de fondo */
     background-image: url('rosadisney.jpeg');
-    background-size: cover;
+    background-size: cover; /* Ajusta la imagen para cubrir todo el contenedor */
     background-position: center;
-    border: 2px solid #39ff14;
-    box-shadow: 0 0 10px #39ff14, 0 0 20px #39ff14, 0 0 30px #39ff14;
+    /* Borde de neón verde */
+    border: 2px solid #39ff14; /* Color del borde */
+    box-shadow: 0 0 10px #39ff14, 0 0 20px #39ff14, 0 0 30px #39ff14; /* Efecto de neón */
 }
 
 li {
     padding: 10px;
 }
-
 li:hover, svg:hover {
     cursor: pointer;
-    color: #32CD32;
+    color: #e84393;
 }
-
 li.active {
-    color: #32CD32;
+    color: #6c5ce7;
 }
-
 #controls {
-    border: 1px solid #32CD32;
+    border: 1px #39ff14 solid;
     border-radius: 10px;
     padding: 10px;
-    background-color: #32CD32;
+    background-color: linear-gradient(to right, rgba(50, 205, 50, 0.8), rgba(232, 67, 147, 0.8));
     opacity: 0.8;
 }
 
 svg {
-    color: #32CD32;
+    color: linear-gradient(to right, rgba(50, 205, 50, 0.8), rgba(232, 67, 147, 0.8));
 }
 
 progress {
     width: 80%;
     margin: 10px;
     opacity: 0.5;
-    color: #32CD32;
 }
 
 .timer {
     width: 50%;
     text-align: left;
-    display: inline-block;
-    color: #32CD32;
+    float: left;
+    color: linear-gradient(to right, rgba(50, 205, 50, 0.8), rgba(232, 67, 147, 0.8));
 }
 
 .volumen {
     width: 50%;
     text-align: right;
-    display: inline-block;
-    color: #32CD32;
+    float: left;
+    color: linear-gradient(to right, rgba(50, 205, 50, 0.8), rgba(232, 67, 147, 0.8));
     margin-bottom: 20px;
 }
 
 #currentPlay {
-    color: #32CD32;
+    color: linear-gradient(to right, rgba(50, 205, 50, 0.8), rgba(232, 67, 147, 0.8));
 }
 
 h3 {
-    color: #32CD32;
+    color: linear-gradient(to right, rgba(50, 205, 50, 0.8), rgba(232, 67, 147, 0.8));
     margin: 0px;
 }
 
+/* Estilos responsivos */
 @media (max-width: 768px) {
     body {
         font-size: 1em;
@@ -105,10 +106,6 @@ h3 {
     .timer, .volumen {
         width: 100%;
         text-align: center;
-        display: block;
-    }
-
-    progress {
-        width: 100%;
+        float: none;
     }
 }
