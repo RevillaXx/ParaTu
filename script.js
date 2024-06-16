@@ -13,16 +13,8 @@ const canciones = [
 "Karol G - _Oki Doki.mp3",
 "KAROL G - GUCCI LOS PAÑOS.mp3",
 "KAROL G - Mientras Me Curo Del Cora.mp3",
-"La Quinta Estación - El Sol no Regresa.mp3",
-"Morat - A Dónde Vamos.mp3",
-"Morat - Cómo Te Atreves.mp3",
-"Princesas Mágicas - Jesùs Adrián Romero.mp3",
-"Rauw Alejandro - Enchule",
-"Reik - Tu Mirada.mp3",
-"Sebastián Yatra - No hay nadie más.mp3",
-"Taylor Swift - Love Story.mp3",
-"TINI, Maria Becerra - Miénteme.mp3",
-"tu fan - mafalda cardenal.mp3"
+"La Quinta Estación - El Sol no Regresa.mp3"
+
  
     ]
     var indiceActual = new Array(1)
