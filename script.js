@@ -118,14 +118,7 @@ const canciones = [
         reproduccionActual("Reproduciendo: "+ canciones[anterior])
         classIconPlay()
     }
-    //Funcion para remover todas las clases css activas
-    function removeActive(){
-        var elems = document.querySelectorAll(".active");
-          [].forEach.call(elems, function(el) {
-            el.classList.remove("active");
-          });
-          return elems
-    }
+  
     //Funcion para mostrar el nombre del arhivo actual en reproduccion
     function reproduccionActual(texto){
         document.getElementById('currentPlay').innerText=texto
