@@ -1,24 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
 body {
     /* Fondo con imagen y gradiente de color */
     background: linear-gradient(to right, #32CD32, #e84393), url('rosaneon2.jfif') fixed;
     background-size: cover; /* Ajusta la imagen para cubrir toda la pantalla */
     background-blend-mode: overlay; /* Fusiona el gradiente con la imagen */
-    min-height: auto;
+    min-height: 100vh;
     background-position: center center;
     background-repeat: no-repeat;
-    align-items: center center;
-
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     font-family: 'Lato', sans-serif;
     font-size: 1.3em;
-    width: 50%;
-    margin: 15px auto;
     padding: 20px;
     text-align: center;
-    min-height: 50vh;
-
-    /* Color del texto */
     color: #32CD32; /* Verde lima */
+    margin: 0;
 }
 
 #playList {
@@ -27,72 +26,86 @@ body {
     border-radius: 10px;
     text-align: left;
     color: #e84393;
-     /* Imagen de fondo */
+    width: 100%;
+    max-width: 800px;
+    margin: 20px;
+    padding: 20px;
+    /* Imagen de fondo */
     background-image: url('rosadisney.jpeg');
     background-size: cover; /* Ajusta la imagen para cubrir todo el contenedor */
     background-position: center;
-
-
     /* Borde de neón verde */
     border: 2px solid #39ff14; /* Color del borde */
     box-shadow: 0 0 10px #39ff14, 0 0 20px #39ff14, 0 0 30px #39ff14; /* Efecto de neón */
 }
 
-
-	
-
- li{
-	padding: 10px;
+li {
+    padding: 10px;
 }
 li:hover, svg:hover {
-	cursor: pointer;
-	color: #e84393;
+    cursor: pointer;
+    color: #e84393;
 }
-li.active{
-	color: #6c5ce7;
+li.active {
+    color: #6c5ce7;
 }
-#controls{
-	border: 1px #39ff14 solid;
-	border-radius: 10px;
-	padding: 10px;
-	background color: rgb(243, 8, 231);
-	opacity: 0.8
-}
-
-svg{
-	color: rgb(243, 8, 231);
+#controls {
+    border: 1px #39ff14 solid;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgb(243, 8, 231);
+    opacity: 0.8;
 }
 
-progress{
-	width: 80%;
-	margin: 10px;
-	opacity: 0.5;
-
+svg {
+    color: rgb(243, 8, 231);
 }
 
-.timer{
-	width:50%;
-	position: relative;
-	top:10px;
-	left:0px;
-	text-align:left;
-	float:left;
-	color: #39ff14;;
+progress {
+    width: 80%;
+    margin: 10px;
+    opacity: 0.5;
 }
-.volumen{
-	width:50%;
-	position: relative;
-	top:10px;
-	right:0px;
-	text-align:right;
-	float:left;
-	color: #6c5ce7;
-	margin-bottom:20px;
+
+.timer {
+    width: 50%;
+    text-align: left;
+    float: left;
+    color: #39ff14;
 }
-#currentPlay{
-	color: rgb(243, 8, 231);
+
+.volumen {
+    width: 50%;
+    text-align: right;
+    float: left;
+    color: #6c5ce7;
+    margin-bottom: 20px;
 }
-h3{
-	color: #32CD32;
-	margin:0px;
+
+#currentPlay {
+    color: rgb(243, 8, 231);
+}
+
+h3 {
+    color: #32CD32;
+    margin: 0px;
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+    body {
+        font-size: 1em;
+        padding: 10px;
+    }
+
+    #playList {
+        width: 90%;
+        padding: 10px;
+    }
+
+    .timer, .volumen {
+        width: 100%;
+        text-align: center;
+        float: none;
+    }
 }
