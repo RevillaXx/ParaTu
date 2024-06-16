@@ -1,7 +1,7 @@
 //Array con el listado de canciones a mostrar en el reprodutor
 const canciones = [
 "Aitana-Vas_A_Quedarte.mp3",
-"Anitta-&-J-Balvin-Downtown",
+"Anitta_&_J_Balvin_Downtown.mp3",
 "Aventura - La Boda.mp3",
 "Benson Boone - Beautiful Things.mp3",
 "Camila - Solo Para Ti.mp3",
